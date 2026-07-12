@@ -1143,3 +1143,121 @@ footer .brand {
         opacity: 1;
     }
 }
+/* ===== MOBILE FIX (360px and below) ===== */
+@media (max-width: 360px) {
+    /* Hero Section */
+    .hero-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+    .hero h1 {
+        font-size: 1.8rem !important;
+        line-height: 1.2 !important;
+    }
+    .hero .lead {
+        font-size: 0.9rem !important;
+    }
+
+    /* Form */
+    .form-card {
+        padding: 16px !important;
+        margin: 0 4px !important;
+    }
+    .form-row {
+        flex-direction: column !important;
+        gap: 8px !important;
+    }
+    .form-card .btn-primary {
+        font-size: 0.8rem !important;
+        padding: 12px !important;
+    }
+
+    /* Team Image */
+    .hero-right img {
+        min-height: 180px !important;
+        height: 180px !important;
+        object-fit: cover !important;
+    }
+    .hero-right .trust-stats {
+        flex-wrap: wrap !important;
+        gap: 10px !important;
+    }
+    .hero-right .trust-stats div {
+        flex: 1 1 30% !important;
+        text-align: center !important;
+    }
+
+    /* Services */
+    .cards {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+    }
+    .card {
+        padding: 18px !important;
+    }
+
+    /* Why Us + Stats */
+    .why-grid {
+        grid-template-columns: 1fr !important;
+        gap: 24px !important;
+    }
+    .stats {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 16px !important;
+    }
+    .stat .num {
+        font-size: 1.8rem !important;
+    }
+
+    /* Process */
+    .steps {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+
+    /* Trust Section */
+    .trust-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+
+    /* FAQ */
+    .faq summary {
+        font-size: 0.95rem !important;
+        padding: 16px 0 !important;
+    }
+    .faq .ans p {
+        font-size: 0.9rem !important;
+    }
+
+    /* CTA */
+    .cta-box {
+        padding: 32px 16px !important;
+    }
+    .cta-box h2 {
+        font-size: 1.6rem !important;
+    }
+    .cta-actions {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+    .cta-actions .btn {
+        width: 100% !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    /* Footer */
+    .foot-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+    .foot-bottom {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    .foot-bottom .socials {
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+    }
+}
