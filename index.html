@@ -71,21 +71,23 @@
                         </div>
                         
                         <!-- Row 2: Website + Budget -->
-                        <div style="display: flex; gap: 10px; margin-bottom: 12px;">
-                            <div class="field" style="flex: 1; margin-bottom: 0;">
-                                <label style="font-size: 0.65rem; font-weight: 600; color: #15181E;">Website</label>
-                                <input id="site" name="website" type="text" placeholder="company.com" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 8px;" />
-                            </div>
-                            <div class="field" style="flex: 1; margin-bottom: 0;">
-                                <label style="font-size: 0.65rem; font-weight: 600; color: #15181E;">Budget</label>
-                                <select id="budget" name="budget" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 8px;">
-                                    <option>Under $10k</option>
-                                    <option>$10k – $25k</option>
-                                    <option>$25k – $50k</option>
-                                    <option>$50k+</option>
-                                </select>
-                            </div>
-                        </div>
+                        <!-- Row 2: Website + Budget -->
+<div style="display: flex; gap: 10px; margin-bottom: 12px;">
+    <div class="field" style="flex: 1; margin-bottom: 0;">
+        <label style="font-size: 0.65rem; font-weight: 600; color: #15181E;">Website</label>
+        <input id="site" name="website" type="text" placeholder="company.com" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 8px;" />
+    </div>
+    <div class="field" style="flex: 1; margin-bottom: 0;">
+        <label style="font-size: 0.65rem; font-weight: 600; color: #15181E;">Monthly Budget</label>
+        <select id="budget" name="budget" style="padding: 8px 12px; font-size: 0.85rem; border-radius: 8px;">
+            <option value="">Select your budget</option>
+            <option value="under-2k">Under $2,000 (Startups)</option>
+            <option value="2k-5k">$2,000 – $5,000 (Mid-size)</option>
+            <option value="5k-10k">$5,000 – $10,000 (Growth Brands)</option>
+            <option value="10k-plus">$10,000+ (Enterprise)</option>
+        </select>
+    </div>
+</div>
                         
                         <!-- Submit Button -->
                         <button type="submit" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.85rem; width: 100%;">Get free audit <span class="arw">↗</span></button>
